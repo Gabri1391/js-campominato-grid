@@ -7,6 +7,11 @@
     display: flex;
     flex-wrap: wrap;
     background-color: lightgreen;
+    display: none;
+}
+
+#grid .active{
+    display: block;
 }
 
 #grid .cell{

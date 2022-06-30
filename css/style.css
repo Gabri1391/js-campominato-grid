@@ -22,3 +22,7 @@
     height: calc(100% / 10);
     border: 1px solid white;
 }
+
+.clicked{
+    background-color: cyan;
+}

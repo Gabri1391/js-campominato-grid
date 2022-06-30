@@ -25,8 +25,12 @@ const totalCells = row * cells;
 // -Ciclo for per creare 100 celle all'interno della griglia
 
 for (i = 1; i <= totalCells; i++) {
-    const newCell = createCell(i);
+    let newCell = createCell(i);
 
+    newCell.addEventListener('click',function(){
+        console.log(newCell.innerText);
+        this.classList.toggle('clicked');
+    } )
 }
 
 // - Aggiungo l'evento al click del bottone
@@ -35,6 +39,6 @@ button.addEventListener('click', function () {
 
     grid.classList.remove('none');
     grid.classList.add('active');
-    console.log(grid)
+
 });
 

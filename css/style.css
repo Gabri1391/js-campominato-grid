@@ -11,9 +11,10 @@
 }
 
 #grid.active{
-    display: block;
     display: flex;
-    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    line-height: 50px;
 }
 
 #grid .cell{

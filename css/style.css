@@ -12,6 +12,8 @@
 
 #grid.active{
     display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #grid .cell{

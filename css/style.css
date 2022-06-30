@@ -10,7 +10,7 @@
     display: none;
 }
 
-#grid .active{
+#grid.active{
     display: block;
 }
 

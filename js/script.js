@@ -25,7 +25,9 @@ for(i = 0; i < totalCells; i++){
 // - Aggiungo l'evento al click del bottone
 
 button.addEventListener('click', function(){
-    
+
     grid.classList.remove('none');
     grid.classList.add('active');
+    console.log(grid)
 });
+

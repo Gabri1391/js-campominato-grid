@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     background-color: lightgreen;
     display: none;
+    cursor: pointer;
 }
 
 #grid.active{
@@ -18,11 +19,12 @@
 }
 
 #grid .cell{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
+    width: 10%;
+    height: 10%;
     border: 1px solid white;
 }
 
 .clicked{
     background-color: cyan;
+    cursor: not-allowed;
 }

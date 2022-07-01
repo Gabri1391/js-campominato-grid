@@ -29,7 +29,12 @@ for (i = 1; i <= totalCells; i++) {
 
     newCell.addEventListener('click',function(){
         console.log(newCell.innerText);
-        this.classList.toggle('clicked');
+        this.classList.add('clicked');
+        
+        if (newCell.classList.contains('clicked')){
+            
+            return;
+        }
     } )
 }
 
